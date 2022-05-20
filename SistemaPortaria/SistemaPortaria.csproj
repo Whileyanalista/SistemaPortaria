@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D9B5AB5-9476-4E63-8F3D-3E0F41764830}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SistemaPortaria</RootNamespace>
+    <AssemblyName>SistemaPortaria</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Eagle, Version=1.0.7945.33333, Culture=neutral, PublicKeyToken=29c6297630be05eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eagle.CLRv4.Core.1.0.7945.33333\lib\net40\Eagle.dll</HintPath>
+    </Reference>
+    <Reference Include="Eagle.Eye, Version=1.0.7945.33333, Culture=neutral, PublicKeyToken=29c6297630be05eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eagle.CLRv4.Core.1.0.7945.33333\lib\net40\Eagle.Eye.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=1.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=5.1.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SKGL, Version=2.0.5.3, Culture=neutral, PublicKeyToken=c2850a745143a030, processorArchitecture=MSIL">
+      <HintPath>..\packages\SKGL.2.0.5.3\lib\SKGL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bill\Bill.cs" />
+    <Compile Include="dao\Ativacao.cs" />
+    <Compile Include="dao\CadCrud.cs" />
+    <Compile Include="dao\Exceptions.cs" />
+    <Compile Include="FormCadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastro.Designer.cs">
+      <DependentUpon>FormCadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTelaPrincipal.Designer.cs">
+      <DependentUpon>FormTelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormValidacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormValidacao.Designer.cs">
+      <DependentUpon>FormValidacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modell\BalloonTip.cs" />
+    <Compile Include="Modell\Conexao.cs" />
+    <Compile Include="Modell\CriptFile.cs" />
+    <Compile Include="Modell\GetSet.cs" />
+    <Compile Include="Modell\Gsm.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCadastro.resx">
+      <DependentUpon>FormCadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTelaPrincipal.resx">
+      <DependentUpon>FormTelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormValidacao.resx">
+      <DependentUpon>FormValidacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Sono-ExtraBold.ttf" />
+    <None Include="Sono-SemiBold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar_0_64.png" />
+    <None Include="Resources\Calendar_23_641.png" />
+    <None Include="Resources\Calendar_2_64.png" />
+    <None Include="Resources\Calendar_3_64.png" />
+    <None Include="Resources\Calendar_4_64.png" />
+    <None Include="Resources\Calendar_5_64.png" />
+    <None Include="Resources\Calendar_6_64.png" />
+    <None Include="Resources\Calendar_7_641.png" />
+    <None Include="Resources\Calendar_8_64.png" />
+    <None Include="Resources\Calendar_7_64.png" />
+    <None Include="Resources\Calendar_9_64.png" />
+    <None Include="Resources\Calendar_10_64.png" />
+    <None Include="Resources\Calendar_11_64.png" />
+    <None Include="Resources\Calendar_12_64.png" />
+    <None Include="Resources\Calendar_13_64.png" />
+    <None Include="Resources\Calendar_14_64.png" />
+    <None Include="Resources\Calendar_15_64.png" />
+    <None Include="Resources\Calendar_16_64.png" />
+    <None Include="Resources\Calendar_17_64.png" />
+    <None Include="Resources\Calendar_18_64.png" />
+    <None Include="Resources\Calendar_19_64.png" />
+    <None Include="Resources\Calendar_20_64.png" />
+    <None Include="Resources\Calendar_21_64.png" />
+    <None Include="Resources\Calendar_22_64.png" />
+    <None Include="Resources\Calendar_23_64.png" />
+    <None Include="Resources\Calendar_24_641.png" />
+    <None Include="Resources\Calendar_24_64.png" />
+    <None Include="Resources\Calendar25_64.png" />
+    <None Include="Resources\Calendar_26_64.png" />
+    <None Include="Resources\Calendar_27_64.png" />
+    <None Include="Resources\Calendar_28_64.png" />
+    <None Include="Resources\Calendar_29_64.png" />
+    <None Include="Resources\Key_Exchange_32.png" />
+    <None Include="Resources\Online_32.png" />
+    <None Include="Resources\Offline_32.png" />
+    <None Include="Resources\Calendar_1_64.png" />
+    <None Include="Resources\Calendar_30_64.png" />
+    <None Include="Resources\Calendar_31_64.png" />
+    <None Include="Resources\Id_Not_Verified_48.png" />
+    <None Include="Resources\Id_Verified_48.png" />
+    <None Include="Resources\Key_2_16.png" />
+    <None Include="Resources\Gmail_16.png" />
+    <None Include="Resources\Administrator_Male_32.png" />
+    <None Include="Resources\Badge_32.png" />
+    <None Include="Resources\faichaSimLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imagen_login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reply_All_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reply_All32_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reply_All32_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Message_Filled_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Message_Filled_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Online_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Organization_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif-email-mkt.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gif-email-mkt%28teste%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_share.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\82586a17e83a3df28e9e2ae57d36d5c5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Badge_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Badge_481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Administrator_Male_481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Police_Station_481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sair48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open_Sign_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Closed_Sign_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Closed_Sign_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open_Sign_322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Closed_Sign_321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Id_Not_Verified_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Id_Verified_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search_Property_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find_User_Male_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Find_User_Male_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mailbox_Closed_Flag_Up_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pictureBoxConecxãoOk2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sem-wi-fi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pictureBoxConecxãoOk3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sem-wi-fi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sem-wi-fi2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading-16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icone.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

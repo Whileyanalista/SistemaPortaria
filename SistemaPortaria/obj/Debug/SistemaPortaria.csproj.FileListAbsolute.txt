@@ -1,0 +1,181 @@
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe.config
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.pdb
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csprojAssemblyReference.cache
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormLogin.resources
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.Properties.Resources.resources
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.GenerateResource.cache
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CoreCompileInputs.cache
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormTelaPrincipal.resources
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormCadastro.resources
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.dll
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
+C:\Users\while\source\repos\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.xml
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe.config
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.pdb
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.dll
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.xml
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csprojAssemblyReference.cache
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormCadastro.resources
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormTelaPrincipal.resources
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormLogin.resources
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.Properties.Resources.resources
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.GenerateResource.cache
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CoreCompileInputs.cache
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csprojAssemblyReference.cache
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormCadastro.resources
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormTelaPrincipal.resources
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormLogin.resources
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.Properties.Resources.resources
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.GenerateResource.cache
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CoreCompileInputs.cache
+C:\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe.config
+C:\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe
+C:\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.pdb
+C:\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.dll
+C:\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.xml
+C:\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe.config
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.pdb
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.dll
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.xml
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csprojAssemblyReference.cache
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormCadastro.resources
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormTelaPrincipal.resources
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormLogin.resources
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.Properties.Resources.resources
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.GenerateResource.cache
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CoreCompileInputs.cache
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe.config
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.pdb
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormCadastro.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormTelaPrincipal.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.Properties.Resources.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.GenerateResource.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CoreCompileInputs.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\SKGL.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormValidacao.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\Topshelf.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\Topshelf.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormLogin.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe.config
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.pdb
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\bin\Debug\SKGL.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\bin\Debug\Topshelf.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\bin\Debug\Topshelf.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csprojAssemblyReference.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormCadastro.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormTelaPrincipal.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormLogin.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormValidacao.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.Properties.Resources.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.GenerateResource.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CoreCompileInputs.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\Newtonsoft.Json.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\Twilio.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\Newtonsoft.Json.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\Twilio.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.App.config
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.AssemblyReference.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe.config
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.pdb
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\Newtonsoft.Json.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\SKGL.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\Newtonsoft.Json.xml
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.xml
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.AssemblyReference.cache
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.SuggestedBindingRedirects.cache
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormCadastro.resources
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormTelaPrincipal.resources
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormLogin.resources
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormValidacao.resources
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.Properties.Resources.resources
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.GenerateResource.cache
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CoreCompileInputs.cache
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe.config
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.pdb
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\Newtonsoft.Json.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\SKGL.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\Topshelf.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\Twilio.dll
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\Newtonsoft.Json.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\Topshelf.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\bin\Debug\Twilio.xml
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.App.config
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.AssemblyReference.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.SuggestedBindingRedirects.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormCadastro.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormTelaPrincipal.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormLogin.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormValidacao.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.Properties.Resources.resources
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.GenerateResource.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CoreCompileInputs.cache
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
+C:\Users\while\OneDrive\Área de Trabalho\PROJETO EM ANDAMENTO\Doc_Negocio\Beckap\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFramework.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFramework.SqlServer.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFramework.xml
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFramework.SqlServer.xml
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\Eagle.dll
+C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\Eagle.Eye.dll

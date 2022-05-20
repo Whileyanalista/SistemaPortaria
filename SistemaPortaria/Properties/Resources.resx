@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Calendar_13_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_13_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_27_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_27_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key_Exchange_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key_Exchange_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_3_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_3_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Online_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Online_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_14_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_14_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Online_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Online_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_11_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_11_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sem-wi-fi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sem-wi-fi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_7_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_7_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_17_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_17_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_30_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_30_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Id_Not_Verified_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Id_Not_Verified_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_24_641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_24_641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reply_All32_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reply_All32_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Badge_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Badge_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Key_2_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Key_2_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pictureBoxConecxãoOk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pictureBoxConecxãoOk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_19_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_19_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_5_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_5_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_15_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_15_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reply_All_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reply_All_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Administrator_Male_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Administrator_Male_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sair48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sair48px1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Badge_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Badge_481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="faichaSimLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\faichaSimLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_28_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_28_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_31_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_31_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_1_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_1_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_29_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_29_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Police_Station_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Police_Station_481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open_Sign_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open_Sign_322.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gif-email-mkt(teste)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gif-email-mkt(teste).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pictureBoxConecxãoOk2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pictureBoxConecxãoOk2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search_Property_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search_Property_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sem-wi-fi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sem-wi-fi2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagen_login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imagen_login.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_2_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_2_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Id_Verified_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Id_Verified_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_20_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_20_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reply_All32_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reply_All32_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhatsApp_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhatsApp_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Badge_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Badge_321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_9_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_9_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_21_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_21_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_7_641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_7_641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mailbox_Closed_Flag_Up_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mailbox_Closed_Flag_Up_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pictureBoxConecxãoOk1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pictureBoxConecxãoOk1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Organization_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Organization_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Administrator_Male_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Administrator_Male_481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_22_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_22_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_12_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_12_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gif-email-mkt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gif-email-mkt.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loading-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading-16.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_24_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_24_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_23_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_23_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Id_Verified_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Id_Verified_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_4_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_4_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_Filled_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Message_Filled_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open_Sign_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open_Sign_321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Find_User_Male_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Find_User_Male_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Closed_Sign_321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Closed_Sign_321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_8_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_8_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Message_Filled_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Message_Filled_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_23_641" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_23_641.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Offline_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Offline_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_26_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_26_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file_share" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file_share.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_6_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_6_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_18_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_18_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Id_Not_Verified_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Id_Not_Verified_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Find_User_Male_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Find_User_Male_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gmail_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gmail_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_0_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_0_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="82586a17e83a3df28e9e2ae57d36d5c5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\82586a17e83a3df28e9e2ae57d36d5c5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_10_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_10_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sem-wi-fi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sem-wi-fi1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pictureBoxConecxãoOk3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pictureBoxConecxãoOk3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar25_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar25_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Closed_Sign_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Closed_Sign_32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar_16_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar_16_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Closed_Sign_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Closed_Sign_48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
