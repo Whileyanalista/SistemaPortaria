@@ -199,7 +199,7 @@ namespace SistemaPortaria.dao
                     {
                         //Servidor de Email
                         smtp.Host = "smtp.gmail.com";
-                        smtp.UseDefaultCredentials = false;
+                        smtp.UseDefaultCredentials = false;                        
                         smtp.Credentials = new System.Net.NetworkCredential("systemagerenciaip@gmail.com", "whiley5604");
                         smtp.Port = 587;
                         smtp.EnableSsl = true;
@@ -211,7 +211,7 @@ namespace SistemaPortaria.dao
                         email.Subject = Assunto; //Assunto
                         email.IsBodyHtml = false;
                         email.Body = CorpoEmail; //Corpo do email
-
+                        
 
                         //Enviar email
                         smtp.Send(email);

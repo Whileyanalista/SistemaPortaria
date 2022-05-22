@@ -179,3 +179,34 @@ C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFr
 C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFramework.SqlServer.xml
 C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\Eagle.dll
 C:\Dev\Pacote System DesckTop\SistemaPortaria\SistemaPortaria\bin\Debug\Eagle.Eye.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe.config
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.exe
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\SistemaPortaria.pdb
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\Eagle.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\Eagle.Eye.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFramework.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFramework.SqlServer.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\Newtonsoft.Json.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\SKGL.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.EF6.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.Linq.dll
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFramework.xml
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\EntityFramework.SqlServer.xml
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\Newtonsoft.Json.xml
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\System.Data.SQLite.xml
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.AssemblyReference.cache
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.SuggestedBindingRedirects.cache
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormCadastro.resources
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormTelaPrincipal.resources
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormLogin.resources
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.FormValidacao.resources
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.Properties.Resources.resources
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.GenerateResource.cache
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CoreCompileInputs.cache
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb

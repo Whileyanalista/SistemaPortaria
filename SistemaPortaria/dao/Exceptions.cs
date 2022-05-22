@@ -39,7 +39,7 @@ namespace SistemaPortaria.dao
                         MessageBox.Show("Erro 1004: Erro com realização da transação/consulta com a base de dados :\r\n \r\nRETORNO: " + exceptionEB, "Alerta ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         break;
                     case 1005:
-                        MessageBox.Show("Erro 1005: Favor verificar se e-mail está correto! \r\n \r\nRETORNO: "+ exceptionEB, "Alerta ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Erro 1005: Erro ao enviar o E-mail! \r\n \r\nRETORNO: "+ exceptionEB, "Alerta ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         break;
                     case 1006:
                         MessageBox.Show("Erro 1006: Tentativa de leitura ou gravação em memória protegida. Normalmente, isso é uma indicação de que outra memória está danificada.\r\n \r\nRETORNO: "+ exceptionEB, "Alerta ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
