@@ -197,9 +197,14 @@ namespace SistemaPortaria.dao
                 {
                     using (MailMessage email = new MailMessage())
                     {
+
+                        //client.Credentials = new NetworkCredential("<Usuario>", "<Senha>");
+                        //client.UseDefaultCredentials = true;
+                        //client.EnableSsl = true;
+
                         //Servidor de Email
                         smtp.Host = "smtp.gmail.com";
-                        smtp.UseDefaultCredentials = false;                        
+                        smtp.UseDefaultCredentials = true;                        
                         smtp.Credentials = new System.Net.NetworkCredential("systemagerenciaip@gmail.com", "whiley5604");
                         smtp.Port = 587;
                         smtp.EnableSsl = true;

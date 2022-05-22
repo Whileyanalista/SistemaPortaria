@@ -91,7 +91,9 @@
     <Compile Include="bill\Bill.cs" />
     <Compile Include="dao\Ativacao.cs" />
     <Compile Include="dao\CadCrud.cs" />
-    <Compile Include="dao\Exceptions.cs" />
+    <Compile Include="dao\Exceptions.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="FormCadastro.cs">
       <SubType>Form</SubType>
     </Compile>

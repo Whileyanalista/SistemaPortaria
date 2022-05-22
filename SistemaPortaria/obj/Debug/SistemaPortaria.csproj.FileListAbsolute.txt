@@ -210,3 +210,4 @@ C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.cspr
 C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.csproj.CopyComplete
 C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.exe
 C:\RepositorioGit\SistemaPortaria\SistemaPortaria\obj\Debug\SistemaPortaria.pdb
+C:\RepositorioGit\SistemaPortaria\SistemaPortaria\bin\Debug\dao\Exceptions.cs
