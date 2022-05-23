@@ -131,9 +131,7 @@ namespace SistemaPortaria
                MessageBox.Show("O cadastro de novo usuario so pode ser realizado por um ADMINISTRADOR.\r\nFavor entrar em contaro com:\r\n \r\n" + pessoa.nome, "Alerta!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (classCasBll.cadlogar != "" && salvarSenha == "novoCadastro")
-            {
-                //MessageBox.Show(""+ classCasBll.cadlogar+ " " + salvarSenha);
-
+            {  
                 if (classCasBll.cadlogar == "USUARIO" )
                 {
                     comboBoxPerfilCad.Text = "USUARIO";
