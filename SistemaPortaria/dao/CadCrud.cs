@@ -95,16 +95,16 @@ namespace SistemaPortaria.dao
 
                     if (cadlogar == "USUARIO")
                     {
-                       
+                        cadlogar = "USUARIO";
                     }
                     else if (cadlogar == "ADMIN")
                     {
                         cadlogar = "ADMIN";                        
-                    }                    
+                    }                     
                 }
                 else
                 {
-                    cadlogar = "CadastroNovo";
+                    cadlogar = "";
                 }
                 
                 lgUser.Close();
@@ -140,7 +140,7 @@ namespace SistemaPortaria.dao
                 else
                 {
                     cadlogar = "Cadastroadm";
-                }
+                }               
 
                 lgUser.Close();
 
