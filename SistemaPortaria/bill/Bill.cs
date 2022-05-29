@@ -15,8 +15,7 @@ namespace SistemaPortaria.bill
         DataTable dataTable = new DataTable();
         Gsm gsm = new Gsm();
 
-        public string acessaradm;
-        public string cadlogar;
+        
       
 
         
@@ -65,26 +64,26 @@ namespace SistemaPortaria.bill
             }
         }
 
+        public string acessaradm;
+        public string cadlogar;
+
         public void CadLogar(Pessoa pessoa)
         {
             try
             {
-               
-                cadCrud.CadLogar(pessoa);
                 cadCrud.CadLogaraDM(pessoa);
 
-                if (cadCrud.cadlogar == "ADMIN")
+                if (cadCrud.cadlogar == "Cadastroadm")
                 {
-                    cadlogar = "ADMIN";
-                }
-                else if (cadCrud.cadlogar == "USUARIO")
-                {
-                    cadlogar = "USUARIO";
+                    cadlogar = cadCrud.cadlogar;                   
                 }
                 else
                 {
+                    cadCrud.CadLogar(pessoa);
+
                     cadlogar = cadCrud.cadlogar;
                 }
+                                                         
             }
             catch (Exception erro)
             {

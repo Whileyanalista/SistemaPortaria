@@ -126,34 +126,34 @@ namespace SistemaPortaria
                 comboBoxPerfilCad.Enabled = false;
             }
 
-            if (classCasBll.cadlogar == "CadastroNovo" && salvarSenha == "novoCadastro")
+            if (classCasBll.cadlogar == "" && salvarSenha == "novoCadastro")
             {               
                MessageBox.Show("O cadastro de novo usuario so pode ser realizado por um ADMINISTRADOR.\r\nFavor entrar em contaro com:\r\n \r\n" + pessoa.nome, "Alerta!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (classCasBll.cadlogar != "CadastroNovo" && salvarSenha == "novoCadastro")
-            {
-                MessageBox.Show(""+ classCasBll.cadlogar + salvarSenha);
-                if (classCasBll.cadlogar == "USUARIO" && salvarSenha == "novoCadastro")
+            else if (classCasBll.cadlogar != "" && salvarSenha == "novoCadastro")
+            {  
+                if (classCasBll.cadlogar == "USUARIO" )
                 {
                     comboBoxPerfilCad.Text = "USUARIO";
                     SalvarAcesso(acesso);
                     SalvarPessoa(pessoa);
                 }
-                else if (classCasBll.cadlogar == "ADMIN" && salvarSenha == "novoCadastro")
+                else if (classCasBll.cadlogar == "ADMIN")
                 {
                     comboBoxPerfilCad.Text = "ADMIN";
                     SalvarAcesso(acesso);
                     SalvarPessoa(pessoa);
                 }
-            }
-            else if (classCasBll.cadlogar == "Cadastroadm" && salvarSenha == "novoCadastro")
-            {
-                if (DialogResult.Yes == MessageBox.Show("Para este cadastro voce precisa ser um ADMINISTRADOR, gostaria de continuar com o registro?", "confirma", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
+                else if (classCasBll.cadlogar == "Cadastroadm")
                 {
-                    SalvarAcesso(acesso);
-                    SalvarPessoa(pessoa);
+                    if (DialogResult.Yes == MessageBox.Show("Para este cadastro voce precisa ser um ADMINISTRADOR, gostaria de continuar com o registro?", "confirma", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2))
+                    {
+                        SalvarAcesso(acesso);
+                        SalvarPessoa(pessoa);
+                    }
                 }
-            }            
+            }
+                      
         }
 
         private void dtLisenca(Register register)
@@ -392,7 +392,6 @@ namespace SistemaPortaria
             {
                 labelNomeCadMod.ForeColor = Color.Red;
                 textBoxNomeCad.Focus();
-
             }
             else if (textBoxNomeCad.Text == "")
             {
