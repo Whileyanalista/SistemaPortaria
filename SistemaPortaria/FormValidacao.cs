@@ -139,7 +139,8 @@ namespace SistemaPortaria
             }
             if (register.email != null)
             {   
-                buttonKeyHabilite.Enabled = true;                
+                buttonKeyHabilite.Enabled = true;
+                textBoxChave.Enabled = true;
             }
             if (textBoxChave.Enabled == true)
             {
