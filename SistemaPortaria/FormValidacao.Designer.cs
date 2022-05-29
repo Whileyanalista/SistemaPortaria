@@ -123,13 +123,13 @@
             // labelNomeCondominio
             // 
             this.labelNomeCondominio.AutoSize = true;
-            this.labelNomeCondominio.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNomeCondominio.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNomeCondominio.ForeColor = System.Drawing.Color.White;
-            this.labelNomeCondominio.Location = new System.Drawing.Point(24, 59);
+            this.labelNomeCondominio.Location = new System.Drawing.Point(23, 61);
             this.labelNomeCondominio.Name = "labelNomeCondominio";
-            this.labelNomeCondominio.Size = new System.Drawing.Size(42, 15);
+            this.labelNomeCondominio.Size = new System.Drawing.Size(47, 18);
             this.labelNomeCondominio.TabIndex = 21;
-            this.labelNomeCondominio.Text = "NOME";
+            this.labelNomeCondominio.Text = "HOME";
             // 
             // buttonKeyHabilite
             // 
@@ -140,7 +140,7 @@
             this.buttonKeyHabilite.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
             this.buttonKeyHabilite.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
             this.buttonKeyHabilite.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonKeyHabilite.ForeColor = System.Drawing.SystemColors.Control;
+            this.buttonKeyHabilite.ForeColor = System.Drawing.Color.White;
             this.buttonKeyHabilite.Image = global::SistemaPortaria.Properties.Resources.Key_2_16;
             this.buttonKeyHabilite.Location = new System.Drawing.Point(383, 130);
             this.buttonKeyHabilite.Name = "buttonKeyHabilite";
