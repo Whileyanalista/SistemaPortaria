@@ -127,9 +127,9 @@
             this.labelNomeCondominio.ForeColor = System.Drawing.Color.White;
             this.labelNomeCondominio.Location = new System.Drawing.Point(24, 59);
             this.labelNomeCondominio.Name = "labelNomeCondominio";
-            this.labelNomeCondominio.Size = new System.Drawing.Size(42, 15);
+            this.labelNomeCondominio.Size = new System.Drawing.Size(41, 15);
             this.labelNomeCondominio.TabIndex = 21;
-            this.labelNomeCondominio.Text = "NOME";
+            this.labelNomeCondominio.Text = "HOME";
             // 
             // buttonKeyHabilite
             // 
