@@ -69,22 +69,22 @@ namespace SistemaPortaria
         private void SonoExtraBold()
         {
             PrivateFontCollection pfc = new PrivateFontCollection();
-            pfc.AddFontFile("C:\\Systema\\Fontes\\Sono-ExtraBold.ttf");
-            labelEntrar.Font = new Font(pfc.Families[0], 16, FontStyle.Regular);
-            labelBem.Font = new Font(pfc.Families[0], 16, FontStyle.Regular);
-            labelVindo.Font = new Font(pfc.Families[0], 16, FontStyle.Regular);
-            labelLogin.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
-            labelSenha.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
+            pfc.AddFontFile("C:\\Systema\\Fontes\\NeutralFaceBold.otf");
+            labelEntrar.Font = new Font(pfc.Families[0], 12, FontStyle.Regular);
+            labelBem.Font = new Font(pfc.Families[0], 12, FontStyle.Regular);
+            //labelVindo.Font = new Font(pfc.Families[0], 14, FontStyle.Regular);
+            labelLogin.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            labelSenha.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
             labelRestantes.Font = new Font(pfc.Families[0], 10, FontStyle.Regular);
-            buttonEnter.Font = new Font(pfc.Families[0], 10, FontStyle.Regular);
-            buttonCancelar.Font = new Font(pfc.Families[0], 10, FontStyle.Regular);
+            buttonEnter.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            buttonCancelar.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
 
-            labelRgMod.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
-            labelNomeCadMod.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
-            labelPerfilCadMod.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
-            labelLoginCadMod.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
-            labelSenhaCadMod.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
-            buttonSalvarCadMod.Font = new Font(pfc.Families[0], 10, FontStyle.Regular);
+            labelRgMod.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            labelNomeCadMod.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            labelPerfilCadMod.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            labelLoginCadMod.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            labelSenhaCadMod.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            buttonSalvarCadMod.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
         }
 
 

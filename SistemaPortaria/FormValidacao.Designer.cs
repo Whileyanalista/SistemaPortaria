@@ -80,7 +80,7 @@
             // 
             this.pictureBox32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox32.Image = global::SistemaPortaria.Properties.Resources.Icone;
-            this.pictureBox32.Location = new System.Drawing.Point(24, 3);
+            this.pictureBox32.Location = new System.Drawing.Point(17, 3);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(58, 50);
             this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -90,11 +90,11 @@
             // labelValidar
             // 
             this.labelValidar.AutoSize = true;
-            this.labelValidar.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelValidar.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelValidar.ForeColor = System.Drawing.Color.White;
-            this.labelValidar.Location = new System.Drawing.Point(202, 18);
+            this.labelValidar.Location = new System.Drawing.Point(188, 18);
             this.labelValidar.Name = "labelValidar";
-            this.labelValidar.Size = new System.Drawing.Size(115, 26);
+            this.labelValidar.Size = new System.Drawing.Size(111, 26);
             this.labelValidar.TabIndex = 24;
             this.labelValidar.Text = "VALIDAÇÃO";
             // 
@@ -103,7 +103,7 @@
             this.labelSerie.AutoSize = true;
             this.labelSerie.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSerie.ForeColor = System.Drawing.Color.White;
-            this.labelSerie.Location = new System.Drawing.Point(24, 131);
+            this.labelSerie.Location = new System.Drawing.Point(22, 135);
             this.labelSerie.Name = "labelSerie";
             this.labelSerie.Size = new System.Drawing.Size(49, 18);
             this.labelSerie.TabIndex = 23;
@@ -114,7 +114,7 @@
             this.labelEmail.AutoSize = true;
             this.labelEmail.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelEmail.ForeColor = System.Drawing.Color.White;
-            this.labelEmail.Location = new System.Drawing.Point(24, 94);
+            this.labelEmail.Location = new System.Drawing.Point(22, 98);
             this.labelEmail.Name = "labelEmail";
             this.labelEmail.Size = new System.Drawing.Size(52, 18);
             this.labelEmail.TabIndex = 22;
@@ -123,11 +123,11 @@
             // labelNomeCondominio
             // 
             this.labelNomeCondominio.AutoSize = true;
-            this.labelNomeCondominio.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNomeCondominio.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNomeCondominio.ForeColor = System.Drawing.Color.White;
-            this.labelNomeCondominio.Location = new System.Drawing.Point(24, 59);
+            this.labelNomeCondominio.Location = new System.Drawing.Point(22, 61);
             this.labelNomeCondominio.Name = "labelNomeCondominio";
-            this.labelNomeCondominio.Size = new System.Drawing.Size(41, 15);
+            this.labelNomeCondominio.Size = new System.Drawing.Size(47, 18);
             this.labelNomeCondominio.TabIndex = 21;
             this.labelNomeCondominio.Text = "HOME";
             // 
@@ -188,12 +188,12 @@
             // textBoxConominio
             // 
             this.textBoxConominio.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxConominio.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxConominio.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxConominio.ForeColor = System.Drawing.Color.Gray;
-            this.textBoxConominio.Location = new System.Drawing.Point(109, 53);
+            this.textBoxConominio.Location = new System.Drawing.Point(82, 53);
             this.textBoxConominio.MaxLength = 50;
             this.textBoxConominio.Name = "textBoxConominio";
-            this.textBoxConominio.Size = new System.Drawing.Size(300, 26);
+            this.textBoxConominio.Size = new System.Drawing.Size(327, 26);
             this.textBoxConominio.TabIndex = 3;
             this.textBoxConominio.Click += new System.EventHandler(this.textBoxConominio_Click);
             this.textBoxConominio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxConominio_KeyPress);
@@ -202,12 +202,12 @@
             // 
             this.textBoxChave.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxChave.Enabled = false;
-            this.textBoxChave.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxChave.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxChave.ForeColor = System.Drawing.Color.Gray;
-            this.textBoxChave.Location = new System.Drawing.Point(109, 127);
+            this.textBoxChave.Location = new System.Drawing.Point(82, 127);
             this.textBoxChave.MaxLength = 50;
             this.textBoxChave.Name = "textBoxChave";
-            this.textBoxChave.Size = new System.Drawing.Size(300, 26);
+            this.textBoxChave.Size = new System.Drawing.Size(327, 26);
             this.textBoxChave.TabIndex = 1;
             this.textBoxChave.Click += new System.EventHandler(this.textBoxChave_Click);
             this.textBoxChave.MouseEnter += new System.EventHandler(this.textBoxChave_MouseEnter);
@@ -215,12 +215,12 @@
             // textBoxEmailAtivar
             // 
             this.textBoxEmailAtivar.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxEmailAtivar.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEmailAtivar.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxEmailAtivar.ForeColor = System.Drawing.Color.Gray;
-            this.textBoxEmailAtivar.Location = new System.Drawing.Point(109, 90);
+            this.textBoxEmailAtivar.Location = new System.Drawing.Point(82, 90);
             this.textBoxEmailAtivar.MaxLength = 50;
             this.textBoxEmailAtivar.Name = "textBoxEmailAtivar";
-            this.textBoxEmailAtivar.Size = new System.Drawing.Size(300, 26);
+            this.textBoxEmailAtivar.Size = new System.Drawing.Size(327, 26);
             this.textBoxEmailAtivar.TabIndex = 2;
             this.textBoxEmailAtivar.Click += new System.EventHandler(this.textBoxEmailAtivar_Click);
             this.textBoxEmailAtivar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxEmailAtivar_KeyPress);
@@ -243,9 +243,9 @@
             this.buttonRegister.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.buttonRegister.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRegister.ForeColor = System.Drawing.Color.White;
-            this.buttonRegister.Location = new System.Drawing.Point(107, 164);
+            this.buttonRegister.Location = new System.Drawing.Point(82, 164);
             this.buttonRegister.Name = "buttonRegister";
-            this.buttonRegister.Size = new System.Drawing.Size(305, 30);
+            this.buttonRegister.Size = new System.Drawing.Size(330, 30);
             this.buttonRegister.TabIndex = 4;
             this.buttonRegister.Text = "REGISTRAR";
             this.buttonRegister.UseVisualStyleBackColor = false;

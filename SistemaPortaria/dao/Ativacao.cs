@@ -204,10 +204,10 @@ namespace SistemaPortaria.dao
 
                         //Servidor de Email
                         smtp.Host = "smtp.gmail.com";
-                        smtp.UseDefaultCredentials = true;                        
+                        smtp.UseDefaultCredentials = false;                        
                         smtp.Credentials = new System.Net.NetworkCredential("systemagerenciaip@gmail.com", "whiley5604");
                         smtp.Port = 587;
-                        smtp.EnableSsl = true;
+                        smtp.EnableSsl = false;
 
                         //Email (Mensagem)
                         email.From = new MailAddress(register.email/*Remetente*/);

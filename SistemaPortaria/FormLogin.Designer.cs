@@ -47,7 +47,6 @@
             this.labelRgMod = new System.Windows.Forms.Label();
             this.textBoxNomeCad = new System.Windows.Forms.TextBox();
             this.labelLogin = new System.Windows.Forms.Label();
-            this.labelVindo = new System.Windows.Forms.Label();
             this.labelEntrar = new System.Windows.Forms.Label();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
             this.buttonImgSenha = new System.Windows.Forms.Button();
@@ -161,8 +160,9 @@
             // painelLogin
             // 
             this.painelLogin.Controls.Add(this.PanelSlide);
+            this.painelLogin.Controls.Add(this.pictureBox30);
+            this.painelLogin.Controls.Add(this.labelRestantes);
             this.painelLogin.Controls.Add(this.labelLogin);
-            this.painelLogin.Controls.Add(this.labelVindo);
             this.painelLogin.Controls.Add(this.labelEntrar);
             this.painelLogin.Controls.Add(this.pictureBox32);
             this.painelLogin.Controls.Add(this.buttonImgSenha);
@@ -201,11 +201,9 @@
             this.painelLogin.Controls.Add(this.pictureBox27);
             this.painelLogin.Controls.Add(this.pictureBox28);
             this.painelLogin.Controls.Add(this.pictureBox29);
-            this.painelLogin.Controls.Add(this.pictureBox30);
             this.painelLogin.Controls.Add(this.pictureBox31);
             this.painelLogin.Controls.Add(this.buttonEnter);
             this.painelLogin.Controls.Add(this.labelSenha);
-            this.painelLogin.Controls.Add(this.labelRestantes);
             this.painelLogin.Controls.Add(this.buttonCancelar);
             this.painelLogin.Controls.Add(this.pictureBoxPainelLogin);
             this.painelLogin.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -282,7 +280,7 @@
             this.labelPerfilCadMod.AutoSize = true;
             this.labelPerfilCadMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPerfilCadMod.ForeColor = System.Drawing.Color.White;
-            this.labelPerfilCadMod.Location = new System.Drawing.Point(302, 73);
+            this.labelPerfilCadMod.Location = new System.Drawing.Point(304, 74);
             this.labelPerfilCadMod.Name = "labelPerfilCadMod";
             this.labelPerfilCadMod.Size = new System.Drawing.Size(41, 15);
             this.labelPerfilCadMod.TabIndex = 93;
@@ -293,7 +291,7 @@
             this.labelSenhaCadMod.AutoSize = true;
             this.labelSenhaCadMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSenhaCadMod.ForeColor = System.Drawing.Color.White;
-            this.labelSenhaCadMod.Location = new System.Drawing.Point(162, 73);
+            this.labelSenhaCadMod.Location = new System.Drawing.Point(161, 75);
             this.labelSenhaCadMod.Name = "labelSenhaCadMod";
             this.labelSenhaCadMod.Size = new System.Drawing.Size(48, 15);
             this.labelSenhaCadMod.TabIndex = 92;
@@ -314,7 +312,7 @@
             this.labelLoginCadMod.AutoSize = true;
             this.labelLoginCadMod.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLoginCadMod.ForeColor = System.Drawing.Color.White;
-            this.labelLoginCadMod.Location = new System.Drawing.Point(26, 73);
+            this.labelLoginCadMod.Location = new System.Drawing.Point(28, 75);
             this.labelLoginCadMod.Name = "labelLoginCadMod";
             this.labelLoginCadMod.Size = new System.Drawing.Size(43, 15);
             this.labelLoginCadMod.TabIndex = 91;
@@ -375,26 +373,13 @@
             // 
             this.labelLogin.AutoSize = true;
             this.labelLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
-            this.labelLogin.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLogin.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelLogin.ForeColor = System.Drawing.Color.White;
-            this.labelLogin.Location = new System.Drawing.Point(150, 67);
+            this.labelLogin.Location = new System.Drawing.Point(161, 76);
             this.labelLogin.Name = "labelLogin";
-            this.labelLogin.Size = new System.Drawing.Size(63, 24);
+            this.labelLogin.Size = new System.Drawing.Size(42, 15);
             this.labelLogin.TabIndex = 17;
             this.labelLogin.Text = "LOGIN";
-            // 
-            // labelVindo
-            // 
-            this.labelVindo.AutoSize = true;
-            this.labelVindo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
-            this.labelVindo.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelVindo.ForeColor = System.Drawing.Color.White;
-            this.labelVindo.Location = new System.Drawing.Point(55, 66);
-            this.labelVindo.Margin = new System.Windows.Forms.Padding(0);
-            this.labelVindo.Name = "labelVindo";
-            this.labelVindo.Size = new System.Drawing.Size(79, 24);
-            this.labelVindo.TabIndex = 66;
-            this.labelVindo.Text = "VINDO!";
             // 
             // labelEntrar
             // 
@@ -466,9 +451,9 @@
             this.labelCad.ForeColor = System.Drawing.Color.White;
             this.labelCad.Location = new System.Drawing.Point(7, 184);
             this.labelCad.Name = "labelCad";
-            this.labelCad.Size = new System.Drawing.Size(145, 21);
+            this.labelCad.Size = new System.Drawing.Size(103, 21);
             this.labelCad.TabIndex = 61;
-            this.labelCad.Text = "Você e novo por aqui ?";
+            this.labelCad.Text = "Novo por aqui ?";
             this.labelCad.Click += new System.EventHandler(this.labelCad_Click);
             // 
             // labelBem
@@ -477,12 +462,12 @@
             this.labelBem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.labelBem.Font = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelBem.ForeColor = System.Drawing.Color.White;
-            this.labelBem.Location = new System.Drawing.Point(6, 66);
+            this.labelBem.Location = new System.Drawing.Point(9, 67);
             this.labelBem.Margin = new System.Windows.Forms.Padding(0);
             this.labelBem.Name = "labelBem";
-            this.labelBem.Size = new System.Drawing.Size(54, 24);
+            this.labelBem.Size = new System.Drawing.Size(135, 24);
             this.labelBem.TabIndex = 23;
-            this.labelBem.Text = "BEM";
+            this.labelBem.Text = "BEM VINDO !";
             // 
             // textBoxSenha
             // 
@@ -509,7 +494,7 @@
             // 
             this.pictureBox0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox0.Image = global::SistemaPortaria.Properties.Resources.Calendar_0_64;
-            this.pictureBox0.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox0.Location = new System.Drawing.Point(30, 116);
             this.pictureBox0.Name = "pictureBox0";
             this.pictureBox0.Size = new System.Drawing.Size(64, 64);
             this.pictureBox0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -521,7 +506,7 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox6.Image = global::SistemaPortaria.Properties.Resources.Calendar_6_64;
-            this.pictureBox6.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox6.Location = new System.Drawing.Point(33, 116);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(64, 64);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -533,7 +518,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox3.Image = global::SistemaPortaria.Properties.Resources.Calendar_3_64;
-            this.pictureBox3.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox3.Location = new System.Drawing.Point(33, 116);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(64, 64);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -545,7 +530,7 @@
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox4.Image = global::SistemaPortaria.Properties.Resources.Calendar_4_64;
-            this.pictureBox4.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox4.Location = new System.Drawing.Point(33, 116);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(64, 64);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -557,7 +542,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox5.Image = global::SistemaPortaria.Properties.Resources.Calendar_5_64;
-            this.pictureBox5.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox5.Location = new System.Drawing.Point(33, 112);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(64, 64);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -569,7 +554,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox1.Image = global::SistemaPortaria.Properties.Resources.Calendar_6_64;
-            this.pictureBox1.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox1.Location = new System.Drawing.Point(33, 112);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(64, 64);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -581,7 +566,7 @@
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox7.Image = global::SistemaPortaria.Properties.Resources.Calendar_7_641;
-            this.pictureBox7.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox7.Location = new System.Drawing.Point(33, 112);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(64, 64);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -593,7 +578,7 @@
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox8.Image = global::SistemaPortaria.Properties.Resources.Calendar_8_64;
-            this.pictureBox8.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox8.Location = new System.Drawing.Point(33, 116);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(64, 64);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -605,7 +590,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox2.Image = global::SistemaPortaria.Properties.Resources.Calendar_2_64;
-            this.pictureBox2.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox2.Location = new System.Drawing.Point(33, 112);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(64, 64);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -617,7 +602,7 @@
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox9.Image = global::SistemaPortaria.Properties.Resources.Calendar_9_64;
-            this.pictureBox9.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox9.Location = new System.Drawing.Point(30, 116);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(64, 64);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -629,7 +614,7 @@
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox10.Image = global::SistemaPortaria.Properties.Resources.Calendar_10_64;
-            this.pictureBox10.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox10.Location = new System.Drawing.Point(33, 112);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(64, 64);
             this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -641,7 +626,7 @@
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox11.Image = global::SistemaPortaria.Properties.Resources.Calendar_11_64;
-            this.pictureBox11.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox11.Location = new System.Drawing.Point(33, 112);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(64, 64);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -653,7 +638,7 @@
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox12.Image = global::SistemaPortaria.Properties.Resources.Calendar_12_64;
-            this.pictureBox12.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox12.Location = new System.Drawing.Point(31, 112);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(64, 64);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -665,7 +650,7 @@
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox15.Image = global::SistemaPortaria.Properties.Resources.Calendar_15_64;
-            this.pictureBox15.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox15.Location = new System.Drawing.Point(33, 112);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(64, 64);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -677,7 +662,7 @@
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox13.Image = global::SistemaPortaria.Properties.Resources.Calendar_13_64;
-            this.pictureBox13.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox13.Location = new System.Drawing.Point(32, 112);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(64, 64);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -689,7 +674,7 @@
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox14.Image = global::SistemaPortaria.Properties.Resources.Calendar_14_64;
-            this.pictureBox14.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox14.Location = new System.Drawing.Point(32, 112);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(64, 64);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -701,7 +686,7 @@
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox16.Image = global::SistemaPortaria.Properties.Resources.Calendar_16_64;
-            this.pictureBox16.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox16.Location = new System.Drawing.Point(30, 112);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(64, 64);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -713,7 +698,7 @@
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox17.Image = global::SistemaPortaria.Properties.Resources.Calendar_17_64;
-            this.pictureBox17.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox17.Location = new System.Drawing.Point(33, 112);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(64, 64);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -725,7 +710,7 @@
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox18.Image = global::SistemaPortaria.Properties.Resources.Calendar_18_64;
-            this.pictureBox18.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox18.Location = new System.Drawing.Point(33, 112);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(64, 64);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -737,7 +722,7 @@
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox19.Image = global::SistemaPortaria.Properties.Resources.Calendar_19_64;
-            this.pictureBox19.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox19.Location = new System.Drawing.Point(31, 112);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(64, 64);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -749,7 +734,7 @@
             // 
             this.pictureBox21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox21.Image = global::SistemaPortaria.Properties.Resources.Calendar_21_64;
-            this.pictureBox21.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox21.Location = new System.Drawing.Point(31, 112);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(64, 64);
             this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -761,7 +746,7 @@
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox20.Image = global::SistemaPortaria.Properties.Resources.Calendar_20_64;
-            this.pictureBox20.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox20.Location = new System.Drawing.Point(31, 116);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(64, 64);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -773,7 +758,7 @@
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox22.Image = global::SistemaPortaria.Properties.Resources.Calendar_22_64;
-            this.pictureBox22.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox22.Location = new System.Drawing.Point(31, 112);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(64, 64);
             this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -785,7 +770,7 @@
             // 
             this.pictureBox23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox23.Image = global::SistemaPortaria.Properties.Resources.Calendar_23_64;
-            this.pictureBox23.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox23.Location = new System.Drawing.Point(33, 112);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(64, 64);
             this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -797,7 +782,7 @@
             // 
             this.pictureBox24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox24.Image = global::SistemaPortaria.Properties.Resources.Calendar_24_64;
-            this.pictureBox24.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox24.Location = new System.Drawing.Point(30, 112);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(64, 64);
             this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -809,7 +794,7 @@
             // 
             this.pictureBox25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox25.Image = global::SistemaPortaria.Properties.Resources.Calendar25_64;
-            this.pictureBox25.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox25.Location = new System.Drawing.Point(30, 112);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(64, 64);
             this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -821,7 +806,7 @@
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox26.Image = global::SistemaPortaria.Properties.Resources.Calendar_26_64;
-            this.pictureBox26.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox26.Location = new System.Drawing.Point(33, 112);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(64, 64);
             this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -833,7 +818,7 @@
             // 
             this.pictureBox27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox27.Image = global::SistemaPortaria.Properties.Resources.Calendar_27_64;
-            this.pictureBox27.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox27.Location = new System.Drawing.Point(30, 116);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(64, 64);
             this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -845,7 +830,7 @@
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox28.Image = global::SistemaPortaria.Properties.Resources.Calendar_28_64;
-            this.pictureBox28.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox28.Location = new System.Drawing.Point(31, 116);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(64, 64);
             this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -857,7 +842,7 @@
             // 
             this.pictureBox29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox29.Image = global::SistemaPortaria.Properties.Resources.Calendar_29_64;
-            this.pictureBox29.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox29.Location = new System.Drawing.Point(30, 116);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(64, 64);
             this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -869,7 +854,7 @@
             // 
             this.pictureBox30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox30.Image = global::SistemaPortaria.Properties.Resources.Calendar_30_64;
-            this.pictureBox30.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox30.Location = new System.Drawing.Point(32, 112);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(64, 64);
             this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -881,7 +866,7 @@
             // 
             this.pictureBox31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
             this.pictureBox31.Image = global::SistemaPortaria.Properties.Resources.Calendar_31_64;
-            this.pictureBox31.Location = new System.Drawing.Point(48, 116);
+            this.pictureBox31.Location = new System.Drawing.Point(33, 112);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(64, 64);
             this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -893,11 +878,11 @@
             // 
             this.labelSenha.AutoSize = true;
             this.labelSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
-            this.labelSenha.Font = new System.Drawing.Font("Calibri", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSenha.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelSenha.ForeColor = System.Drawing.Color.White;
-            this.labelSenha.Location = new System.Drawing.Point(150, 111);
+            this.labelSenha.Location = new System.Drawing.Point(161, 119);
             this.labelSenha.Name = "labelSenha";
-            this.labelSenha.Size = new System.Drawing.Size(67, 24);
+            this.labelSenha.Size = new System.Drawing.Size(44, 15);
             this.labelSenha.TabIndex = 18;
             this.labelSenha.Text = "SENHA";
             // 
@@ -905,13 +890,13 @@
             // 
             this.labelRestantes.AutoSize = true;
             this.labelRestantes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(73)))), ((int)(((byte)(121)))));
-            this.labelRestantes.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelRestantes.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelRestantes.ForeColor = System.Drawing.Color.White;
-            this.labelRestantes.Location = new System.Drawing.Point(9, 93);
+            this.labelRestantes.Location = new System.Drawing.Point(30, 89);
             this.labelRestantes.Name = "labelRestantes";
-            this.labelRestantes.Size = new System.Drawing.Size(94, 15);
+            this.labelRestantes.Size = new System.Drawing.Size(65, 19);
             this.labelRestantes.TabIndex = 19;
-            this.labelRestantes.Text = "DIAS RESTANTES";
+            this.labelRestantes.Text = "RESTAM";
             // 
             // pictureBoxPainelLogin
             // 
@@ -1042,7 +1027,6 @@
         private System.Windows.Forms.Label labelPerfilCadMod;
         private System.Windows.Forms.PictureBox pictureBox32;
         private System.Windows.Forms.Label labelEntrar;
-        private System.Windows.Forms.Label labelVindo;
         private System.Windows.Forms.Timer timerSlider;
         public System.Windows.Forms.Panel PanelSlide;
         private System.Windows.Forms.Button buttonSalvarCadMod;

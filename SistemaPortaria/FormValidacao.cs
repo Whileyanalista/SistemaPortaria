@@ -27,12 +27,12 @@ namespace SistemaPortaria
         private void SonoExtraBold()
         {
             PrivateFontCollection pfc = new PrivateFontCollection();
-            pfc.AddFontFile("C:\\Systema\\Fontes\\Sono-ExtraBold.ttf");
-            labelValidar.Font = new Font(pfc.Families[0], 16, FontStyle.Regular);
-            labelNomeCondominio.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
-            labelEmail.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
-            labelSerie.Font = new Font(pfc.Families[0], 13, FontStyle.Regular);
-            buttonRegister.Font = new Font(pfc.Families[0], 10, FontStyle.Regular);
+            pfc.AddFontFile("C:\\Systema\\Fontes\\NeutralFaceBold.otf");
+            labelValidar.Font = new Font(pfc.Families[0], 15, FontStyle.Regular);
+            labelNomeCondominio.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            labelEmail.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            labelSerie.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
+            buttonRegister.Font = new Font(pfc.Families[0], 9, FontStyle.Regular);
         }
         
 
